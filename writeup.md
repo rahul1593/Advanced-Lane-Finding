@@ -145,9 +145,9 @@ For running the pipeline for project video, I made a few basic changes. Followin
 1. Make some variables as global, so that they may be used in case of bad frames.
 2. Use weighted averaging for getting starting position of the lane lines for smoother lines.
 
-Here's a [link to my video result](./output_videos/project_video.mp4)
+Here's a [link to my video result](https://github.com/rahul1593/Advanced-Lane-Finding/raw/master/output_videos/project_video.mp4)
 
-Here's a [link to challenge video result](./output_videos/challenge_video.mp4)
+Here's a [link to challenge video result](https://github.com/rahul1593/Advanced-Lane-Finding/raw/master/output_videos/challenge_video.mp4)
 
 ---
 
