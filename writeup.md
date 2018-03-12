@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./meta/cal_op.jpg "Camera Calibration"
+[image1]: https://github.com/rahul1593/Advanced-Lane-Finding/raw/master/meta/cal_op.JPG "Camera Calibration"
 [image2]: ./meta/cal_test.jpg "Distortion Correction"
 [image3]: ./meta/thresholded.jpg "Color Mask"
 [image4]: ./meta/persp_trans.jpg "Output"
@@ -40,7 +40,7 @@ I start by preparing "object points", which will be the (x, y, z) coordinates of
 
 I then used the output `objpoints` and `imgpoints` to compute the camera calibration and distortion coefficients using the `cv2.calibrateCamera()` function.  I applied this distortion correction to the test image using the `cv2.undistort()` function and obtained this result: 
 
-<img src="meta/cal_op.jpg" alt="Camera calibration"/><br>
+![alt text][image2]
 
 Here I have assumed the number of corners along x-axis as 9 and along y-axis as 6. Few chessboard images for calibration which have less than these number of corners along respective axis will not be used for calibration.
 
