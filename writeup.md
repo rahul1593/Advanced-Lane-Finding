@@ -20,6 +20,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
+[image0]: https://github.com/rahul1593/Advanced-Lane-Finding/raw/master/meta/form0.JPG "Color Threshold Formula"
 [image1]: https://github.com/rahul1593/Advanced-Lane-Finding/raw/master/meta/cal_op.JPG "Camera Calibration"
 [image2]: https://github.com/rahul1593/Advanced-Lane-Finding/raw/master/meta/cal_test.JPG "Distortion Correction"
 [image3]: https://github.com/rahul1593/Advanced-Lane-Finding/raw/master/meta/thresholded.JPG "Color Mask"
@@ -56,9 +57,7 @@ After calculating the camera matrix and distortion coefficients, I used them for
 
 Color thresholds for each of red, green and blue color are decide by using the following formula:
 
-$$
-colorThreshold = regularColorThreshold - \frac{(regularMedianColor - imageColorMedian)}{effectFactor}
-$$
+![alt text][image0]
 
 Here regularColorThreshold is the threshold color value chosen for an image having median color equal to regularMedianColor approximately. imageColorMedian is the median of a color in current image. effectFactor is used to decide the effect of difference between color median of current and standard image on the regular threshold value.
 
